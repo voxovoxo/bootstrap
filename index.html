@@ -21,9 +21,7 @@
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
            <span class="navbar-toggler-icon"></span>
        </button>
-       <a class="navbar-brand mr-auto" href ="#">
-                   <img src="img/logo.png" height="30 width="41>
-                </a>
+       <a class="navbar-brand mr-auto" href ="#"><img src="img/logo.png" height="30 width="41></a>
        <div class="collapse navbar-collapse" id="Navbar">
          <ul class="navbar-nav mr-auto">
            <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>Home</a></li>
@@ -41,8 +39,9 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-6 col-sm align-self-center">
                    <img src="img/logo.png" class="img-fluid">
+                   <a href="#reserve"><button type="button" class="btn btn-warning btn-lg mx-auto">Reserve Table</button></a>
                 </div>
             </div>
         </div>
@@ -57,12 +56,11 @@
                <div class="media">
                   <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
                   <div class="media-body">
-
-                <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                     <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                     <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                   </div>
-                </div>
-           </div>
+               </div>
+            </div>
         </div>
 
 
@@ -72,54 +70,88 @@
             </div>
             <div class ="col col-sm col-md">
                <div class="media-body">
-                <h2 class="mt-0">Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                  <h2 class="mt-0">Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                  <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                </div>
-               </div>
+            </div>
                  <div class="media">
                      <img class="d-flex ml-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">  
                  </div>
-            </div>     
-        </div>
+        </div>     
+   
 
         <div class ="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class ="col col-sm order-sm-first col-md">
-            <div class="media">
-            <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"  alt="alberto">
-            <div class="media-body">
-                <h2 class="mt-0">Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-                  </div>
-                 </div>
-                </div>
-        </div>
-        <div class="col-sm">
-            <div class="card">
-               <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-               <div class="card-body">
-                  <dl class="row">
-                   <dt class="col-6">Number of Guests</dt>
-                   <dd class="col-6">3 Feb 2021</dd>
-                   <dt class="col-6">Major Stake Holder</dt>
-                   <dd class="col-6">HK Fine Foods Inc.</dd>
-                   <dt class="col-6">Last years turnover</dt>
-                   <dd class="col-6">$12324,231</dd>
-                   <dt class="col-6">Employees</dt>
-                   <dd class="col-6">40</dd>
-                  </dl>
+               <div class="media">
+                 <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"  alt="alberto">
+                   <div class="media-body">
+                     <h2 class="mt-0">Alberto Somayya</h2>
+                     <h4>Executive Chef</h4>
+                     <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                   </div>
                </div>
             </div>
+        </div>
+        <div class="col-sm">
+            <div class="col-12 col-sm-6 card mx-auto" id="reserve">
+               <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+               <div class="card-body">
+                <dl class="row">
+                 <dt>Number of Guests</dt>
+                   <dd class="form-check">
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
+                      <label class="custom-control-label" for="defaultInline1">1</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
+                      <label class="custom-control-label" for="defaultInline2">2</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="defaultInline3" name="inlineDefaultRadiosExample">
+                      <label class="custom-control-label" for="defaultInline3">3</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="defaultInline4" name="inlineDefaultRadiosExample">
+                      <label class="custom-control-label" for="defaultInline4">4</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="defaultInline5" name="inlineDefaultRadiosExample">
+                      <label class="custom-control-label" for="defaultInline5">5</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="defaultInline6" name="inlineDefaultRadiosExample">
+                      <label class="custom-control-label" for="defaultInline6">6</label>
+                    </div>
+                   </dd>
+                 <dt class="col-6">Date and Time</dt>
+                   <div class="col-12 form-group row">
+                     <div class="col-12 col-sm-6">
+                        <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                     </div>
+                   
+                     <div class="col-12 col-sm-6">
+                        <input type="text" class="form-control" id="time" name="time" placeholder=" Time">
+                     </div>
+                   </div> 
+                </dl>
+                  <div class="form-group row">
+                     <div class="offset-md-2 col-md-10">
+                          <button type="submit" class="btn btn-primary">
+                            Reserve
+                          </button>
+                     </div>
+                  </div>
+               </div
             </div>
-          
+        </div>
     </div>
-
     <footer class="footer">
         <div class ="container">
-            <div classs="row">             
+            <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
@@ -138,7 +170,7 @@
 		              <i class ="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
 		              <i class ="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
 		              <i class ="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+		            </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
@@ -150,12 +182,12 @@
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
                     </div>
                 </div>
-           </div>
-           <div class ="row justify-content-center">             
+            </div>
+            <div class ="row justify-content-center">             
                 <div class="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
-           </div>
+            </div>
         </div>
     </footer>
         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
