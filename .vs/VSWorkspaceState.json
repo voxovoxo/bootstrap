@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\'dist",
+    "\\'dist\\img'"
   ],
-  "SelectedNode": "\\css\\styles.scss",
+  "SelectedNode": "\\'dist\\img'\\buffet.png",
   "PreviewInSolutionExplorer": false
 }
